@@ -613,7 +613,7 @@ footer h3 {
         "foto3" 
         "texto3";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
+        grid-template-rows: 200px 1fr 420px 1fr 420px 1fr 420px;
         margin-bottom: 40px;
     }
     .box-grid div img {
@@ -686,7 +686,7 @@ footer h3 {
         "foto3" 
         "texto3";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
+        grid-template-rows: 200px 1fr 420px 1fr 420px 1fr 420px;
         margin-bottom: 40px;
     }
     .catering-grid div img {
