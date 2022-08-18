@@ -749,7 +749,7 @@ footer h3 {
     }
 
 /** -----------CONTACTOS--------------- */
-    .contactos-grid {
+    /* .contactos-grid {
         display: grid;
         grid-template-areas: 
         "portada"
@@ -763,8 +763,6 @@ footer h3 {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-image: url("./imgs/lemon_cuadrado.jpg");
-        background-position: center 510px; */
         border: solid 1px rgba(221,100,97,255);
         margin-top: 5px;
         margin-bottom: 40px;
@@ -778,7 +776,6 @@ footer h3 {
     .form-contactos {
         grid-area: form;
         display: flex;
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -797,5 +794,5 @@ footer h3 {
     }
     .estilo-form textarea {
         border: 2px solid rgba(221,100,97,255);
-    }
+    } */
 }
