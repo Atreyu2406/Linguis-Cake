@@ -26,7 +26,7 @@ header ul li {
 
 /* *Main */
 .carousel-item img {
-    height: 90vh;
+    height: 100vh;
 }
 .titulo-index {
 	animation: titulo-index 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -460,6 +460,11 @@ footer h3 {
     /* *Barra de Menú */
     .navbar-nav a{
         color: black;
+    }
+
+    /* *Main */
+    .carousel-item img {
+        height: 90vh;
     }
 
     /** Footer */
