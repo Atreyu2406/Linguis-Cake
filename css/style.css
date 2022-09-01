@@ -21,11 +21,6 @@
   opacity: 0.6;
 }
 
-@media (max-width: 480px) {
-  .catering-grid div .sos-un-boton a, .box-grid div .sos-un-boton a, .tortas-grid div .sos-un-boton a {
-    font-size: 16px;
-  }
-}
 .texto-tortas1 {
   grid-area: texto-tortas1;
   display: flex;
@@ -597,7 +592,7 @@ main h1 {
     display: grid;
     grid-template-areas: "portada" "img-box1" "texto-box1" "img-box2" "texto-box2" "img-box3" "texto-box3";
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
+    grid-template-rows: 200px 1fr 500px 1fr 500px 1fr 500px;
     margin-bottom: 40px;
   }
   .box-grid div img {
