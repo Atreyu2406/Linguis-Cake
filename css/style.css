@@ -21,6 +21,11 @@
   opacity: 0.6;
 }
 
+@media (max-width: 480px) {
+  .catering-grid div .sos-un-boton a, .box-grid div .sos-un-boton a, .tortas-grid div .sos-un-boton a {
+    font-size: 16px;
+  }
+}
 .texto-tortas1 {
   grid-area: texto-tortas1;
   display: flex;
@@ -607,9 +612,6 @@ main h1 {
   }
   .box-grid div img p {
     text-align: center;
-  }
-  .box-grid div img .sos-un-boton a {
-    font-size: 10px;
   }
 }
 /** -----------MENÚ CATERING--------------- */
