@@ -1,0 +1,17 @@
+/** -----------MENÚ CONTACTO--------------- */
+/* *Diseño GRID */
+.contactos-grid {
+    display: grid;
+    grid-template-areas: 
+    "portada"
+    "form";
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto;
+    margin-bottom: 40px;
+    .form-contacto {
+        border: 1px solid $color-primario;
+        background-color: lighten($color: $color-primario, $amount: 20);
+    }
+}
+
+
