@@ -332,7 +332,6 @@ header .navbar-nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4cbca;
   background-repeat: no-repeat;
   background-size: 100vw 300px;
   margin-top: 5px;
@@ -575,7 +574,7 @@ main h1 {
     display: grid;
     grid-template-areas: "portada" "foto" "texto";
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 300px auto;
+    grid-template-rows: 300px 300px auto;
   }
   .img-historia {
     grid-area: foto;
