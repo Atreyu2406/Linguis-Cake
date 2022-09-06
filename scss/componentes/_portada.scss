@@ -21,7 +21,7 @@
 /** -----------RESPONSIVE TABLET--------------- */
 @media (min-width: 481px) and (max-width: 1023px) {
     .portada-general {
-        background-color: lighten($color: $color-primario, $amount: 25);
+        background-color: none;
         background-image: url("../../imgs/cheesecake_torta_mod.jpg");
         background-size: 100vw 300px;
     }
@@ -30,7 +30,7 @@
 /** -----------RESPONSIVE SMARTPHONE--------------- */
 @media (max-width: 480px) {
     .portada-general {
-        background-color: lighten($color: $color-primario, $amount: 25);
+        background-color: none;
         background-image: url("../../imgs/cheesecake_torta_mod.jpg");
         background-size: 100vw 300px;
     }
@@ -38,6 +38,7 @@
 
 @media (max-width: 426px) {
     .portada-general {
+        background-color: none;
         background-image: url("../../imgs/cheesecake_torta_mod.jpg");
         background-size: 100vw 300px;
     }

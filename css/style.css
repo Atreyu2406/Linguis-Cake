@@ -350,7 +350,7 @@ header .navbar-nav a:hover {
 /** -----------RESPONSIVE TABLET--------------- */
 @media (min-width: 481px) and (max-width: 1023px) {
   .portada-general {
-    background-color: #f4cbca;
+    background-color: none;
     background-image: url("../../imgs/cheesecake_torta_mod.jpg");
     background-size: 100vw 300px;
   }
@@ -358,13 +358,14 @@ header .navbar-nav a:hover {
 /** -----------RESPONSIVE SMARTPHONE--------------- */
 @media (max-width: 480px) {
   .portada-general {
-    background-color: #f4cbca;
+    background-color: none;
     background-image: url("../../imgs/cheesecake_torta_mod.jpg");
     background-size: 100vw 300px;
   }
 }
 @media (max-width: 426px) {
   .portada-general {
+    background-color: none;
     background-image: url("../../imgs/cheesecake_torta_mod.jpg");
     background-size: 100vw 300px;
   }
