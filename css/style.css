@@ -332,6 +332,7 @@ header .navbar-nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f4cbca;
   background-repeat: no-repeat;
   background-size: 100vw 300px;
   margin-top: 5px;
