@@ -3,15 +3,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../imgs/lemon_cuadrado.jpg");
-    background-position: center 510px;
+    background-color: lighten($color: $color-primario, $amount: 25);
+    background-repeat: no-repeat;
+    background-size: 100vw 300px;
     margin-top: 5px;
     margin-bottom: 40px;
     h1 {
         font-family: $fuente-principal;
         text-align: center;    
-        font-size: 50px;   
+        font-size: 60px;   
         color: white;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 4px black;
+    }
+}
+
+/** -----------RESPONSIVE TABLET--------------- */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .portada-general {
+        background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+        background-size: 100vw 300px;
+    }
+}
+
+/** -----------RESPONSIVE SMARTPHONE--------------- */
+@media (max-width: 480px) {
+    .portada-general {
+        background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+        background-size: 100vw 300px;
     }
 }

@@ -6,7 +6,7 @@
     "portada portada"
     "foto texto";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 80vh;
+    grid-template-rows: 300px 80vh;
 }
 
 /** Historia Personal */
@@ -22,13 +22,10 @@
     grid-area: texto;
     display: flex;
     align-items: center;
+    padding-right: 30px;
 }
 
-/** -----------RESPONSIVE SMARTPHONE--------------- */
-/** -----------HISTORIA--------------- */
-@media (min-width: 1024px) {
-
-}
+/** -----------RESPONSIVE TABLET--------------- */
 @media (min-width: 481px) and (max-width: 1023px) {
     .historia-grid {
         display: grid;
@@ -37,7 +34,7 @@
         "foto"
         "texto";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 500px auto;
+        grid-template-rows: 300px 500px auto;
         }
         .img-historia {
         grid-area: foto;
@@ -58,9 +55,12 @@
             p {
                 text-align: center;
                 padding: 20px;
+                margin: 0 10px;
             }       
         }
 }
+
+/** -----------RESPONSIVE SMARTPHONE--------------- */
 @media (max-width: 480px) {
     .historia-grid {
     display: grid;

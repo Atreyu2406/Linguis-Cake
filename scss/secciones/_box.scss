@@ -8,7 +8,7 @@
     "img-box2 texto-box2"
     "img-box3 texto-box3";
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 200px 400px 400px 400px;
+    grid-template-rows: 300px 400px 400px 400px;
     margin-bottom: 40px;
 }
 
@@ -23,6 +23,7 @@
             margin-bottom: 10px;
         }
         .sos-un-boton {
+            margin-top: 20px;
             a {
                 @extend %btn-pedido;
             }
@@ -30,8 +31,18 @@
     }
 }
 
+/** -----------RESPONSIVE TABLET--------------- */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .box-grid {
+        div {
+            img {
+                margin: 0 20px;
+            }
+        }
+    }
+}
+
 /** -----------RESPONSIVE SMARTPHONE--------------- */
-/** -----------BOX--------------- */
 @media (max-width: 480px) {
     .box-grid {
         display: grid;
@@ -44,27 +55,17 @@
         "img-box3" 
         "texto-box3";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
+        grid-template-rows: 300px 1fr 400px 1fr 400px 1fr 400px;
         margin-bottom: 40px;
     }
     .box-grid {
         div {
             img {
-                width: 300px;
-                height: 300px;
-                padding: 10px;
-                margin-bottom: 10px;
-                border: 3px solid $color-primario;
-            h2 {
                 margin-bottom: 10px;
             }
             p {
                 text-align: center;
             }  
-            }
         }
     }
-}
-@media (max-width: 376px) {
-
 }

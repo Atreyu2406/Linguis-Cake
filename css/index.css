@@ -21,24 +21,11 @@
   opacity: 0.6;
 }
 
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  .catering-grid div .sos-un-boton a, .box-grid div .sos-un-boton a, .tortas-grid div .sos-un-boton a {
-    font-size: 16px;
-  }
-}
-/** -----------RESPONSIVE SMARTPHONE--------------- */
-@media (max-width: 480px) {
-  .catering-grid div .sos-un-boton a, .box-grid div .sos-un-boton a, .tortas-grid div .sos-un-boton a {
-    font-size: 16px;
-  }
-}
 .texto-tortas1 {
   grid-area: texto-tortas1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
 }
 
 .texto-tortas2 {
@@ -46,7 +33,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
 }
 
 .texto-tortas3 {
@@ -54,7 +40,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
 }
 
 .texto-tortas4 {
@@ -62,7 +47,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
 }
 
 .img-tortas1 {
@@ -305,26 +289,18 @@ header ul li {
 }
 header .navbar-nav a {
   color: black;
-  text-shadow: 2px 2px 2px white;
-  font-size: 22px;
 }
 header .navbar-nav a:hover {
   color: white;
   text-shadow: black 2px 2px 2px;
 }
 
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  header .navbar-nav a {
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-}
 /** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------HEADER--------------- */
 @media (max-width: 480px) {
-  header .navbar-nav a {
-    text-transform: uppercase;
-    font-size: 18px;
+  /* *Barra de Menú */
+  .navbar-nav a {
+    color: black;
   }
 }
 .portada-general {
@@ -332,34 +308,18 @@ header .navbar-nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4cbca;
-  background-repeat: no-repeat;
-  background-size: 100vw 300px;
+  background-color: yellow;
   margin-top: 5px;
   margin-bottom: 40px;
 }
 .portada-general h1 {
   font-family: "Kaushan Script", cursive;
   text-align: center;
-  font-size: 60px;
-  color: white;
-  text-shadow: 2px 2px 4px black;
+  font-size: 50px;
+  color: rgb(221, 100, 97);
+  text-shadow: 1px 1px 2px black;
 }
 
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  .portada-general {
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
-    background-size: 100vw 300px;
-  }
-}
-/** -----------RESPONSIVE SMARTPHONE--------------- */
-@media (max-width: 480px) {
-  .portada-general {
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
-    background-size: 100vw 300px;
-  }
-}
 /** Footer */
 footer {
   border-top: solid 10px rgb(221, 100, 97);
@@ -370,7 +330,7 @@ footer a {
   color: black;
 }
 footer h3 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -394,7 +354,7 @@ footer .footer-flex {
 }
 footer .footer-flex p {
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   padding: 5px;
 }
 footer .footer-flex div {
@@ -428,23 +388,14 @@ footer .footer-flex .footer-nav a:hover {
   transform: scale(1.05);
 }
 
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  footer h3 {
-    font-size: 14px;
-  }
-  footer .footer-flex p {
-    font-size: 14px;
-  }
-  footer .footer-flex div i {
-    font-size: 25px;
-  }
-}
 /** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------FOOTER--------------- */
 @media (max-width: 480px) {
   /** Footer */
   footer h3 {
     font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
   footer .footer-flex {
     display: flex;
@@ -453,15 +404,15 @@ footer .footer-flex .footer-nav a:hover {
   }
   footer .footer-flex p {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     padding: 0;
-    margin: 10px;
+    margin: 5px;
   }
   footer .footer-flex div {
     margin: 10px;
   }
   footer .footer-flex div i {
-    font-size: 20px;
+    font-size: 25px;
   }
   footer .desarrollado {
     text-align: center;
@@ -478,7 +429,7 @@ main h1 {
   font-family: "Kaushan Script", cursive;
   font-size: 4rem;
   color: rgb(221, 100, 97);
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0 0 1px black;
 }
 
 .carousel-item img {
@@ -506,10 +457,10 @@ main h1 {
 @media (max-width: 480px) {
   /* *Main */
   .index .text-center {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   .carousel-item img {
-    height: 65vh;
+    height: 75vh;
   }
 }
 /** -----------MENÚ HISTORIA--------------- */
@@ -518,7 +469,7 @@ main h1 {
   display: grid;
   grid-template-areas: "portada portada" "foto texto";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 80vh;
+  grid-template-rows: 200px 80vh;
 }
 
 /** Historia Personal */
@@ -535,16 +486,16 @@ main h1 {
   grid-area: texto;
   display: flex;
   align-items: center;
-  padding-right: 30px;
 }
 
-/** -----------RESPONSIVE TABLET--------------- */
+/** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------HISTORIA--------------- */
 @media (min-width: 481px) and (max-width: 1023px) {
   .historia-grid {
     display: grid;
     grid-template-areas: "portada" "foto" "texto";
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 500px auto;
+    grid-template-rows: 200px 500px auto;
   }
   .img-historia {
     grid-area: foto;
@@ -566,10 +517,8 @@ main h1 {
   .texto-historia p {
     text-align: center;
     padding: 20px;
-    margin: 0 10px;
   }
 }
-/** -----------RESPONSIVE SMARTPHONE--------------- */
 @media (max-width: 480px) {
   .historia-grid {
     display: grid;
@@ -605,7 +554,7 @@ main h1 {
   display: grid;
   grid-template-areas: "portada portada portada portada" "img-tortas1 texto-tortas1 img-tortas2 texto-tortas2" "img-tortas3 texto-tortas3 img-tortas4 texto-tortas4";
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 1fr 1fr;
+  grid-template-rows: 200px 1fr 1fr;
   margin-bottom: 40px;
 }
 
@@ -614,7 +563,7 @@ main h1 {
   width: 300px;
   height: 300px;
   border: 3px solid rgb(221, 100, 97);
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
 }
 .tortas-grid div p {
@@ -622,38 +571,27 @@ main h1 {
   align-items: center;
   font-size: 18px;
 }
-.tortas-grid div .sos-un-boton {
-  margin-top: 20px;
-}
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  .tortas-grid {
-    display: grid;
-    grid-template-areas: "portada portada" "img-tortas1 texto-tortas1" "img-tortas2 texto-tortas2" "img-tortas3 texto-tortas3" "img-tortas4 texto-tortas4";
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 300px 1fr 1fr 1fr 1fr;
-    margin-bottom: 40px;
-  }
-  .tortas-grid div img {
-    margin: 20px 40px;
-  }
-  .tortas-grid div p {
-    padding-right: 10px;
-  }
-}
 /** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------HISTORIA--------------- */
 @media (max-width: 480px) {
   .tortas-grid {
     display: grid;
     grid-template-areas: "portada" "img-tortas1" "texto-tortas1" "img-tortas2" "texto-tortas2" "img-tortas3" "texto-tortas3" "img-tortas4" "texto-tortas4";
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 1fr 250px 1fr 250px 1fr 250px 1fr 250px;
+    grid-template-rows: 200px 1fr 250px 1fr 250px 1fr 250px 1fr 250px;
     margin-bottom: 40px;
   }
-  .tortas-grid div h2 {
-    margin-top: 10px;
+  .tortas-grid div img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(221, 100, 97);
+    padding: 10px;
   }
   .tortas-grid div p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
     padding: 0 20px;
     text-align: center;
   }
@@ -664,7 +602,7 @@ main h1 {
   display: grid;
   grid-template-areas: "portada portada" "img-box1 texto-box1" "img-box2 texto-box2" "img-box3 texto-box3";
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 300px 400px 400px 400px;
+  grid-template-rows: 200px 400px 400px 400px;
   margin-bottom: 40px;
 }
 
@@ -678,28 +616,27 @@ main h1 {
 .box-grid div h2 {
   margin-bottom: 10px;
 }
-.box-grid div .sos-un-boton {
-  margin-top: 20px;
-}
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  .box-grid div img {
-    margin: 0 20px;
-  }
-}
 /** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------BOX--------------- */
 @media (max-width: 480px) {
   .box-grid {
     display: grid;
     grid-template-areas: "portada" "img-box1" "texto-box1" "img-box2" "texto-box2" "img-box3" "texto-box3";
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 1fr 400px 1fr 400px 1fr 400px;
+    grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
     margin-bottom: 40px;
   }
   .box-grid div img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(221, 100, 97);
+  }
+  .box-grid div img h2 {
     margin-bottom: 10px;
   }
-  .box-grid div p {
+  .box-grid div img p {
     text-align: center;
   }
 }
@@ -709,7 +646,7 @@ main h1 {
   display: grid;
   grid-template-areas: "portada portada" "img-catering1 texto-catering1" "img-catering2 texto-catering2" "img-catering3 texto-catering3";
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 300px 400px 400px 400px;
+  grid-template-rows: 200px 400px 400px 400px;
   margin-bottom: 40px;
 }
 
@@ -723,28 +660,27 @@ main h1 {
 .catering-grid div h2 {
   margin-bottom: 10px;
 }
-.catering-grid div .sos-un-boton {
-  margin-top: 20px;
-}
-/** -----------RESPONSIVE TABLET--------------- */
-@media (min-width: 481px) and (max-width: 1023px) {
-  .catering-grid div img {
-    margin: 0 20px;
-  }
-}
 /** -----------RESPONSIVE SMARTPHONE--------------- */
+/** -----------CATERING--------------- */
 @media (max-width: 480px) {
   .catering-grid {
     display: grid;
     grid-template-areas: "portada" "img-catering1" "texto-catering1" "img-catering2" "texto-catering2" "img-catering3" "texto-catering3";
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 1fr 400px 1fr 400px 1fr 400px;
+    grid-template-rows: 200px 1fr 400px 1fr 400px 1fr 400px;
     margin-bottom: 40px;
   }
   .catering-grid div img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(221, 100, 97);
+  }
+  .catering-grid div img h2 {
     margin-bottom: 10px;
   }
-  .catering-grid div p {
+  .catering-grid div img p {
     text-align: center;
   }
 }
@@ -754,27 +690,12 @@ main h1 {
   display: grid;
   grid-template-areas: "portada" "form";
   grid-template-columns: 1fr;
-  grid-template-rows: 300px auto;
+  grid-template-rows: 200px auto;
   margin-bottom: 40px;
 }
 .contactos-grid .form-contacto {
   border: 1px solid rgb(221, 100, 97);
   background-color: #efb6b5;
 }
-.contactos-grid .form-contacto .btn-enviar {
-  display: flex;
-  justify-content: center;
-}
-.contactos-grid .form-contacto .btn-enviar button {
-  border: solid 1px rgb(221, 100, 97);
-  padding: 5px;
-  background-color: white;
-  border-radius: 10px;
-  margin-top: 10px;
-  transition: all 0.5s ease;
-}
-.contactos-grid .form-contacto .btn-enviar button:hover {
-  opacity: 0.6;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */

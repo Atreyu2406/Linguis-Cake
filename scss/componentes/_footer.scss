@@ -7,73 +7,129 @@ footer {
         color: black;
     }
     h3 {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         margin-bottom: 10px;
     }
-}
-.footer-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;  
-    margin: 40px;  
-    p {
-        text-align: center;
-        font-size: 12px;
-        padding: 5px;
+    .desarrollado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to left, white 5%, $color-primario);
+        font-size: 18px;
+        height: 10vh;
+        padding: 10px;
+        p {
+            margin: 0;
+        }    
+    }
+    .footer-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;  
+        margin: 40px;  
+        p {
+            text-align: center;
+            font-size: 16px;
+            padding: 5px;
+        }
+        div {
+            text-align: center;
+            i {
+                font-size: 30px;
+                transition: all 0.8s;
+                margin: 15px;
+                display: block;
+            }
+        }
+        .fa-instagram {
+            &:hover {
+                background: rgb(229, 146, 236);
+                background: linear-gradient(180deg, rgba(229, 146, 236, 1) 0%, rgba(255, 58, 198, 1) 22%, rgba(251, 0, 0, 1) 62%, rgba(255, 49, 35, 1) 73%, rgba(232, 229, 0, 1) 95%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                transform: scale(1.2);
+            }
+        }
+        .fa-whatsapp {
+            &:hover {
+                color: rgb(17, 169, 0);
+                transform: scale(1.2);
+            }          
+        }
+        .fa-envelope {
+            &:hover {
+                color: rgb(0, 32, 236);
+                transform: scale(1.2);
+            }
+        }
+        .footer-nav {
+            a{
+                &:hover {
+                    color: $color-primario;
+                    font-weight: bold;
+                    transform: scale(1.05);
+                }
+            }           
+        }
     }
 }
-.desarrollado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to left, white 5%, $color-primario);
-    font-size: 18px;
-    height: 10vh;
-    padding: 10px;
-    p {
-        margin: 0;
+
+/** -----------RESPONSIVE TABLET--------------- */
+@media (min-width: 481px) and (max-width: 1023px) {
+    footer {
+        h3 {
+            font-size: 14px;
+        }
+        .footer-flex {
+            p {
+
+                font-size: 14px;
+            }
+            div {
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
     }
 }
+    
 
 /** -----------RESPONSIVE SMARTPHONE--------------- */
-/** -----------FOOTER--------------- */
-@media (min-width: 1024px) {
-
-}
-@media (min-width: 481px) and (max-width: 1023px) {
-
-}
 @media (max-width: 480px) {
     /** Footer */
     footer {
         h3 {
             font-size: 12px;
-            font-weight: bold;
-            margin-bottom: 5px;
         }
-    }
-    .footer-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;  
-        p {
+        .footer-flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            p {
+                text-align: center;
+                font-size: 12px;
+                padding: 0;
+                margin: 10px;
+            }
+            div {
+                margin: 10px;
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+        .desarrollado {
             text-align: center;
-            font-size: 10px;
-            padding: 0;
-            margin: 5px;
-        }
-        div {
-            margin: 10px;
-        }
-    }
-    .desarrollado {
-        text-align: center;
-        margin-bottom: 0;
-        padding: 20px;
-        background-color: rgba(221,100,97,255);
-        p {
-            font-size: 12px;
+            margin-bottom: 0;
+            padding: 20px;
+            background-color: $color-primario;
+            p {
+                font-size: 12px;
+            }
         }
     }
 }
+

@@ -6,11 +6,26 @@
     "portada"
     "form";
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 300px auto;
     margin-bottom: 40px;
     .form-contacto {
         border: 1px solid $color-primario;
         background-color: lighten($color: $color-primario, $amount: 20);
+        .btn-enviar {
+            display: flex;
+            justify-content: center;
+            button {
+                border: solid 1px $color-primario;
+                padding: 5px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 10px;
+                transition: all 0.5s ease;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
     }
 }
 

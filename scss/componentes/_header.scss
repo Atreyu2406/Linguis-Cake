@@ -4,32 +4,43 @@ header {
     background-image: linear-gradient(to right, white 8%, $color-primario); 
     ul {
         li {
-            margin-left: 50px;
+            margin: 0 3.5rem;
         }
     }
-}
-.navbar-nav {
-    a {
-    color: black;
-    &:hover {
-        color: white;
-        text-shadow: black 2px 2px 2px;
+    .navbar-nav {
+        a {
+        color: black;
+        text-shadow: 2px 2px 2px white;
+        font-size: 22px;
+        &:hover {
+            color: white;
+            text-shadow: black 2px 2px 2px;
+        }
     }
+    }
+}
+
+/** -----------RESPONSIVE TABLET--------------- */
+@media (min-width: 481px) and (max-width: 1023px) {
+    header {
+        .navbar-nav {
+            a {
+            text-transform: uppercase;
+            font-size: 20px;
+            }
+        }
     }
 }
 
 /** -----------RESPONSIVE SMARTPHONE--------------- */
-/** -----------HEADER--------------- */
-@media (min-width: 1024px) {
-
-}
-@media (min-width: 481px) and (max-width: 1023px) {
-
-}
 @media (max-width: 480px) {
-    /* *Barra de Menú */
-    .navbar-nav a {
-        color: black;
+    header {
+        .navbar-nav {
+            a {
+            text-transform: uppercase;
+            font-size: 18px;
+            }
+        }
     }
 }
 
