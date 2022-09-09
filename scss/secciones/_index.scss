@@ -43,3 +43,11 @@ main {
         }
     }
 }
+
+@media (max-width: 447px) {
+    .index {
+        .text-center {
+            font-size: 2.1rem;
+        }
+    }
+}
