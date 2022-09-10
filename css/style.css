@@ -340,7 +340,7 @@ header .navbar-nav a:hover {
 @media (min-width: 481px) and (max-width: 1023px) {
   .portada-general {
     background-color: none;
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+    background-image: url("../../imgs/cheesecake_torta_mod-min.jpg");
     background-size: 100vw 300px;
   }
 }
@@ -348,20 +348,20 @@ header .navbar-nav a:hover {
 @media (max-width: 480px) {
   .portada-general {
     background-color: none;
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+    background-image: url("../../imgs/cheesecake_torta_mod-min.jpg");
     background-size: 100vw 300px;
   }
 }
 @media (max-width: 426px) {
   .portada-general {
     background-color: none;
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+    background-image: url("../../imgs/cheesecake_torta_mod-min.jpg");
     background-size: 100vw 300px;
   }
 }
 @media (max-width: 376px) {
   .portada-general {
-    background-image: url("../../imgs/cheesecake_torta_mod.jpg");
+    background-image: url("../../imgs//cheesecake_torta_mod-min.jpg");
     background-size: 100vw 300px;
   }
 }
@@ -788,6 +788,13 @@ main h1 {
 }
 .contactos-grid .form-contacto .btn-enviar button:hover {
   opacity: 0.6;
+}
+
+/** -----------RESPONSIVE SMARTPHONE--------------- */
+@media (max-width: 480px) {
+  .contactos-grid section {
+    height: 80vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

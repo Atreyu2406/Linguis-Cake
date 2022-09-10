@@ -29,4 +29,12 @@
     }
 }
 
+/** -----------RESPONSIVE SMARTPHONE--------------- */
+@media (max-width: 480px) {
+    .contactos-grid {
+        section {
+            height: 80vh;
+        }
+    }
+}
 
